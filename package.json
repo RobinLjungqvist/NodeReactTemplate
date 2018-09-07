@@ -1,0 +1,61 @@
+{
+  "name": "mypage",
+  "version": "1.0.0",
+  "description": "First webpage",
+  "scripts": {
+    "start": "babel-node ./server/app.js",
+    "test": "test",
+    "lint": "eslint . --ext .js,.jsx"
+  },
+  "keywords": [
+    "Testing",
+    "stuff"
+  ],
+  "author": "Robin Ljungqvist",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "css-loader": "^1.0.0",
+    "dotenv": "^6.0.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "express": "^4.16.3",
+    "file-loader": "^2.0.0",
+    "morgan": "^1.9.0",
+    "node-sass": "^4.9.3",
+    "pug": "^2.0.3",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "svg-inline-loader": "^0.8.0",
+    "webpack-dev-middleware": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^5.5.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "pre-commit": "^1.2.2",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-hot-middleware": "^2.23.1"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
